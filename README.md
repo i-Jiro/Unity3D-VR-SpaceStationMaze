@@ -6,7 +6,11 @@ An assignment project for NYU's AR/VR program.
 
 ### Design Process
 The overall process of building out the layout of the maze was great. Initially took some time to align the set pieces within ProGrid's grids.
-But I once figured out how to align the pivots, prototyping an environment was stupidly easy and efficient. A challenge that came up was performance.
+But I once figured out how to align the pivots, prototyping an environment was stupidly easy and efficient.
+
+To make navigation a litte easier, I changed the XR ray type to a projectile. This gives the raycast a bend that makes it more comfortable to select where you want to go.
+
+A challenge that came up was performance.
 Before, I was using realtime lighting to light up all the corridors and had severe frame drops. This was solved with by using baked lightmaps instead.
 By having lights and shadows baked into the texture; A lot of processing power was saved while still maintaining beautiful lighting of the environment.
 
