@@ -1674,6 +1674,12 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 9b87c28772d3f44d8929187f7ca901e4, type: 3}
+--- !u!1 &153977642 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4863922325137763712, guid: 7f2028074d60fba42806e8bbc7cf7d24,
+    type: 3}
+  m_PrefabInstance: {fileID: 677543067}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &159925300 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1408697690187423182, guid: f258f3e5df3f6d043ab7ff23dcd6f7d0,
@@ -4753,6 +4759,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 342733ecfe95c7f48b98f8650afc9adc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Keycard
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 342733ecfe95c7f48b98f8650afc9adc, type: 3}
@@ -8686,10 +8697,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6247269481079774498, guid: 7f2028074d60fba42806e8bbc7cf7d24,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.55395013
+      objectReference: {fileID: 0}
     - target: {fileID: 8359469295280232703, guid: 7f2028074d60fba42806e8bbc7cf7d24,
         type: 3}
       propertyPath: m_Convex
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f2028074d60fba42806e8bbc7cf7d24, type: 3}
@@ -8699,6 +8715,51 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 677543067}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &677543069
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153977642}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 983863378fd664f449af79aaedb277ee, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &677543070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153977642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b2ab860f4875a41981f13d64ab4376, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!135 &677543071
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153977642}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2
+  m_Center: {x: 1.52, y: 0, z: 0.37}
 --- !u!1 &681561647 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7202108752654172504, guid: f258f3e5df3f6d043ab7ff23dcd6f7d0,
@@ -14895,7 +14956,7 @@ MonoBehaviour:
   m_AudioClipForOnHoverCanceled: {fileID: 0}
   m_PlayHapticsOnSelectEntered: 1
   m_HapticSelectEnterIntensity: 0.305
-  m_HapticSelectEnterDuration: 0
+  m_HapticSelectEnterDuration: 0.5
   m_PlayHapticsOnSelectExited: 0
   m_HapticSelectExitIntensity: 0
   m_HapticSelectExitDuration: 0
@@ -14904,7 +14965,7 @@ MonoBehaviour:
   m_HapticSelectCancelDuration: 0
   m_PlayHapticsOnHoverEntered: 1
   m_HapticHoverEnterIntensity: 0.118
-  m_HapticHoverEnterDuration: 0
+  m_HapticHoverEnterDuration: 0.25
   m_PlayHapticsOnHoverExited: 0
   m_HapticHoverExitIntensity: 0
   m_HapticHoverExitDuration: 0
