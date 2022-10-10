@@ -1,5 +1,6 @@
 # Unity3D-VR-SpaceStationMaze
-A VR maze that takes place inside a space station using XR Interaction Toolkit. An assignment project for NYU's AR/VR program.
+A VR maze that takes place inside a space station using XR Interaction Toolkit.
+An assignment project for NYU's AR/VR program.
 
 [Watch Demo](https://streamable.com/lek8rq)
 
