@@ -6,7 +6,7 @@ An assignment project for NYU's AR/VR program.
 
 ### Design Process
 The overall process of building out the layout of the maze was great. Initially took some time to align the set pieces within ProGrid's grids.
-But I once figured out how to align the pivots, prototyping an environment was stupidly easy and efficient.
+But I once figured out how to align the pivots by offsetting the meshes, prototyping an environment was stupidly easy and efficient.
 
 To make navigation a litte easier, I changed the XR ray type to a projectile. This gives the raycast a bend that makes it more comfortable to select where you want to go.
 
